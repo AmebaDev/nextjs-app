@@ -9,8 +9,25 @@ import {
 } from '@heroicons/react/outline'
 
 function NavBarMobile() {
+    const [navbar, setNavbar] = useState(true)
+
+    const visibleNavbar = () => {
+        if (window.scrollY >= 20) {
+            setNavbar(false)
+        } else {
+            setNavbar(true)
+        }
+    }
+
+
+    if (typeof window !== 'undefined') {
+        // You now have access to `window`
+        window.addEventListener('scroll', visibleNavbar)  
+    }
+    
+
     return (
-        <div className="container">
+        <div className={navbar ? 'container' : 'hidden'}> 
         <nav className="navbar-mobile w-full flex space-x-7 items-center justify-center text-xs">
             <Link href='/' className='items-center' >
                 <a className='flex flex-col text-white items-center '>

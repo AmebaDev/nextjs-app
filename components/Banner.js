@@ -11,9 +11,14 @@ function Banner() {
                 objectFit="cover"
                 objectPosition='center'
                 />
+
+                
         </div>
     
     )
 }
 
 export default Banner
+
+
+

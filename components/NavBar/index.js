@@ -5,14 +5,6 @@ import NavBarMobile from './NavBarMobile'
 
 function NavBar() {
 
-    
-
-    const [visible, setVisible] = useState(true)
-
-   
-   
-    
-
     return (
         <> 
             { typeof window !== 'undefined' 
