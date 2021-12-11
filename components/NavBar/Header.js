@@ -33,7 +33,7 @@ function Header() {
             <div className="container m-auto flex ">
                 {/* Left - Logo */}
                 <div className="relative flex  items-center  cursor-pointer ">
-                    <div className="text-white text-4xl mr-1 font-bold mr-14"> React</div>
+                    <div className="text-white text-4xl font-bold mr-14"> React</div>
                     <Image 
                         src={logo} 
                         layout="fill"
