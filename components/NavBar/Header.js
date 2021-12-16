@@ -5,7 +5,7 @@ import ButtonLang from '../i18n/ButtonLang'
 import UserMenu from '../UserMenu/UserMenu'
  
 import Image from "next/image"
-import logo from '../../assets/img/lama-logo.svg'
+
 
 
 function Header() {
@@ -35,7 +35,7 @@ function Header() {
                 <div className="relative flex  items-center  cursor-pointer ">
                     <div className="text-white text-4xl font-bold mr-14"> React</div>
                     <Image 
-                        src={logo} 
+                        src="/img/lama-logo.svg"
                         layout="fill"
                         objectFit="contain"
                         objectPosition="right"
@@ -43,7 +43,7 @@ function Header() {
                     
                 </div>
                 {/* Middle - Navigation */}
-                <div className="relative flex items-center  w-3/4   space-x-4 justify-center lg:m-auto lg:w-auto lg:space-x-9">
+                <div className="relative flex items-center  w-3/4  space-x-4 justify-center lg:m-auto lg:w-auto lg:space-x-9">
                     <Link href='/'>
                         <a className='text-white font-bold  '>
                             Главная

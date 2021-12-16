@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <> 
             { typeof window !== 'undefined' 
-            ? window.innerWidth <= 800 ? <NavBarMobile /> : <Header /> 
+            ? window.innerWidth <= 689 ? <NavBarMobile /> : <Header /> 
             : null
             }
         </>

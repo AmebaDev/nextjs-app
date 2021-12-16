@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Elfboyclassic';
+	src: url('/static/fonts/Elfboyclassic.ttf');
+}
+@font-face {
+	font-family: 'Tolkien';
+	src: url('/static/fonts/Tolkien.ttf');
+}
+
+.welcome h3 {
+	font-family: 'Elfboyclassic';
+}
+
+/* .welcome-text {
+	font-family: 'Tolkien';
+} */
