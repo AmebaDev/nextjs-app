@@ -5,7 +5,7 @@ import Banner from '../components/Banner/Banner'
 import SmallCard from '../components/SmallCard'
 
 
-import { navigation } from '../components/Banner/items'
+import { navigation } from '../assets/items'
 
 export default function Home() {
   return (
