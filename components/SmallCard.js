@@ -10,7 +10,7 @@ function SmallCard({title, text, img }) {
 
             <div className="" >
                 <h2 className="font-bold">{title}</h2>
-                <h3 className=""> {text}</h3>
+                <h3 className="mt-2"> {text}</h3>
             </div>
         
         </div>
